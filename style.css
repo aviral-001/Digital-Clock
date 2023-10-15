@@ -1,0 +1,21 @@
+#demo
+{
+    font-size: 100px;
+    color:red;
+    text-align: center;
+    margin-left: 70px;
+}
+body
+{
+    background-image: url("image7.jpg");
+    background-size: cover;
+}
+.head
+{
+    font-size: 100px;
+    color:black;
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 170px;
+    
+}

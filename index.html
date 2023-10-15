@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <p class="head">Digital Clock</p>
+    <p id="demo">Time</p>
+    
+    <script>
+        const d=new Date();
+        let Time=d.toLocaleTimeString();
+         function fun1()
+        {
+            const d=new Date();
+            let newTime=d.toLocaleTimeString();
+            document.getElementById("demo").innerHTML=newTime;
+        }
+        setInterval(fun1,1000);
+        setInterval(()=>{console.log("hello");},1000);
+
+    </script>
+</body>
+</html>
